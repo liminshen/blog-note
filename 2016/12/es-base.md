@@ -6,4 +6,8 @@
 - Boolean 布尔值
 - null 空
 - undefined 未定义
-- oject 对象
+- Oject 对象
+	1. Function（函数）
+	2. Array（数组）
+	3. Date（日期）
+	4. RegExp（正则表达式）
