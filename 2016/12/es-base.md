@@ -49,3 +49,10 @@
 parseInt('0xF',16);//print 15
 parseInt('11111',2);//print 15
 ```
+
+## 字符串
+### [控制字符串的方法](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String#Methods);
+- 'someString'.indexOf('S');//更具字符串的值查找对应的位置;
+- 'someString'.charAt(index);//根据字符串的索引值来查找对应位置的值;
+- 'someString'.toLocaleLowerCase();//
+- 'someString'.toUpperCase();//
