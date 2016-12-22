@@ -37,6 +37,7 @@
 
 ### parseInt、parseFloat
 > parseInt 是将字符串转换成数字的工具函数
+
 ```
 //parseInt(string, radix);将字符串转成数字 radix：一个2到36之间的整数值，用于指定转换中采用的基数。 radix正常可以忽略
 parseInt('0xF',16);//print 15
