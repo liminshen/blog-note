@@ -11,3 +11,30 @@
 	2. Array（数组）
 	3. Date（日期）
 	4. RegExp（正则表达式）
+- Symbol（符号）（第六版新增）
+
+> JavaScript 还有一种内置Error（错误）类型，这个会在之后的介绍中提到；现在我们先讨论下上面这些类型。
+
+## 数值
+- 二进制 
+- 八进制 0[0-7]*
+- 十进制
+- 十六进制 0x[0-9a-f];
+```
+
+```
+
+### 运算符
+
+### 数学对象Math
+- sin
+- random
+- cos
+- tan
+
+### parseInt、parseFloat
+```
+//parseInt(string, radix);将字符串转成数字 radix：一个2到36之间的整数值，用于指定转换中采用的基数。
+parseInt('0xF',10);//print 16
+parseInt('010',10);//print 9
+```
