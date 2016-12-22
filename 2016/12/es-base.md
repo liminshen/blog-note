@@ -30,10 +30,16 @@
 > 复合运算符 +=、-=、*=、/=、%=； example: x += y; (=>) x = x+y;
 
 ### 数学对象Math
+> 包含以下方法
+
 - sin 正弦值 对边/斜边
 - cos 余弦值 邻边/斜边
 - tan 正切值 对边/邻边
 - random 0~1的随机小数
+
+> 属性
+
+- PI 圆周率
 
 ### parseInt、parseFloat
 > parseInt 是将字符串转换成数字的工具函数
