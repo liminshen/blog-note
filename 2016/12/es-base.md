@@ -25,16 +25,19 @@
 ```
 
 ### 运算符
+> +、-、*、/、%；加减乘除模；ps：模是取余数
+> 复合运算符 +=、-=、*=、/=、%=； example: x += y; (=>) x = x+y;
 
 ### 数学对象Math
-- sin
-- random
-- cos
-- tan
+- sin 正弦值 对边/斜边
+- cos 余弦值 邻边/斜边
+- tan 正切值 对边/邻边
+- random 0~1的随机小数
 
 ### parseInt、parseFloat
+> parseInt 是将字符串转换成数字的工具函数
 ```
-//parseInt(string, radix);将字符串转成数字 radix：一个2到36之间的整数值，用于指定转换中采用的基数。
-parseInt('0xF',10);//print 16
-parseInt('010',10);//print 9
+//parseInt(string, radix);将字符串转成数字 radix：一个2到36之间的整数值，用于指定转换中采用的基数。 radix正常可以忽略
+parseInt('0xF',16);//print 15
+parseInt('11111',2);//print 15
 ```
